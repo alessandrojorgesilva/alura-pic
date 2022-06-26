@@ -1,3 +1,4 @@
+import { FilterByDescription } from './photos-list/photos/filter-by-description.pipe';
 
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
@@ -13,7 +14,8 @@ import { PhotosComponent } from './photos-list/photos/photos.component';
      PhotoComponent,
      PhotosListComponent,
      PhotosFormComponent,
-     PhotosComponent
+     PhotosComponent,
+     FilterByDescription
   ],
   imports: [
     HttpClientModule,
