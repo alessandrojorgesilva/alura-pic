@@ -1,4 +1,4 @@
-import { PhotoListResolver } from './photos/photos-list/photos/photo-list.resolver';
+import { PhotoListResolver } from './photos/photos-list/photo-list.resolver';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes, Resolve } from '@angular/router';
 
